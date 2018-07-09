@@ -8,6 +8,7 @@ Author@R: c(person("Raphael", "Nedellec", role = "aut", email = "raphael.nedelle
 Maintainer: Yannig "magic" Goude <yannig.goude@edf.fr>
 Description: Santander
 License: See file license
+Imports: dplyr, readr
 Encoding: UTF-8
 LazyData: true
 suggests: testthat
