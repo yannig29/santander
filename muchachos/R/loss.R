@@ -1,14 +1,12 @@
 
 
-#' Title
+#' loss
 #'
-#' @param y 
-#' @param ychap 
+#' @param y Real value
+#' @param ychap Forecasted value
 #'
-#' @return
+#' @return logloss
 #' @export
-#'
-#' @examples
 loss <- function(y, ychap) {
     sqrt(mean((log(ychap + 1) - log(y + 1))^2))
 }
