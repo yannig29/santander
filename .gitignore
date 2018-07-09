@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-Data/
-Submissions/
+Data/*
+Submissions/*
+.DS_Store
